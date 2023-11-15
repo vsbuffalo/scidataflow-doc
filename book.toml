@@ -1,0 +1,6 @@
+[book]
+authors = ["Vince Buffalo"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Using SciDataFlow"
