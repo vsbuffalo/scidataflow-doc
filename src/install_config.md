@@ -1,6 +1,6 @@
 # Welcome to SciDataFlow!
 
-![SciDataFlow demo screencast](https://github.com/vsbuffalo/scidataflow/blob/6c7294f33498b9d77e4e0b830502b9c0719ed6db/screencast.gif)
+![SciDataFlow demo screencast](images/screencast.gif)
 
 **Problem 1**: Have you ever wanted to reuse and build upon a research
 project's output or supplementary data, but can't find it?
