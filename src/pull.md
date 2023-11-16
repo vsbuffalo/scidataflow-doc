@@ -1,4 +1,4 @@
-# Retrieving Data From Remotes
+# Retrieving Data from Remotes
 
 A key feature of SciDataFlow is that it can quickly reunite a project's *code*
 repository with its *data*. Imagine a colleague had a small repository

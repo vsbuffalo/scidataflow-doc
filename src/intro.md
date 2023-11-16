@@ -3,6 +3,17 @@
 First, make sure you have [installed](chapter_2.html) and
 [configured](chapter_3.html) SciDataFlow.
 
+
+## An Important Warning 
+**⚠️Warning**: SciDataFlow does not do data *versioning*. Unlike Git, it does
+not keep an entire history of data at each commit. Thus, **data backup must be
+managed by separate software**. SciDataFlow is still in alpha phase, so it is
+especially important you backup your data *before* using SciDataFlow. A tiny,
+kind reminder: you as a researcher should be doing routine backups *already* —
+losing data due to either a computational mishap or hardware failure is always
+possible. 
+
+
 The user interacts with the Data Manifest through the fast and concurrent
 command line tool `sdf` written in the inimitable [Rust
 language](https://www.rust-lang.org). The `sdf` tool has a Git-like interface.

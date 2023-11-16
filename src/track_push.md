@@ -23,6 +23,14 @@ Project data status:
  population_sizes.tsv      current, tracked      8cb9d10b      2023-09-01 10:48AM (14 minutes ago)      not on remote
 ```
 
+## Untracking a File with `sdf untrack`
+
+Similarly, you can untrack a file with `sdf untrack`:
+
+```console
+$ sdf untrack data/population_sizes.tsv
+```
+
 ## Uploading Files with `sdf push`
 
 Then, to upload these files to Zenodo, all we'd do is:

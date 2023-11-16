@@ -1,4 +1,4 @@
-# sdf add and sdf status
+# Adding/Removing Files and Getting File Status with `sdf add`, `sdf rm`, and `sdf status`
 
 ## Adding files with sdf add
 
@@ -44,6 +44,8 @@ Project data status:
 
 Now, the status indicates that this file has been **changed**.
 
+## Adding a Modified Version of Data to the Data Manifest with `sdf update`
+
 If these changes are good, we can tell the Data Manifest it should
 update its record of this version:
 
@@ -58,12 +60,25 @@ Project data status:
 
 ```
 
-**⚠️Warning**: SciDataFlow does not do data *versioning*. Unlike Git, it does
-not keep an entire history of data at each commit. Thus, **data backup must be
-managed by separate software**. SciDataFlow is still in alpha phase, so it is
-especially important you backup your data *before* using SciDataFlow. A tiny,
-kind reminder: you as a researcher should be doing routine backups *already* —
-losing data due to either a computational mishap or hardware failure is always
-possible. 
+## Removing a File from the Manifest with `sdf rm`
+
+One can remove a data file entry from the Data Manifest with `sdf
+rm`. **Note that this does not remove the file**; you can do this
+separately with the Unix `rm` command.
+
+```console
+$ sdf rm data/population_sizes.tsv
+```
+
+## Moving a File with `sdf mv`
+
+Much like the Git subcommand `git mv`, `sdf` has `sdf mv` subcommand
+that can be used to move a file's location in the manifest and on
+the file system:
+
+
+```console
+$ sdf mv data/population_sizes.tsv old_data/population_sizes.tsv
+```
 
 

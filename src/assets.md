@@ -11,7 +11,9 @@ downloaded, all files can be retrieved in one line:
     $ sdf asset nygc_gatk_1000G_highcov
     $ sdf pull --all
 
-The idea of SciDataFlow-Assets is to have a open, user-curated collection of
-these recipes at https://github.com/scidataflow-assets. Please contribute
-an Asset when you release new data with a paper!
+The idea of SciDataFlow-Assets is to have a open, user-curated
+collection of these recipes at
+[https://github.com/scidataflow-assets](https://github.com/scidataflow-assets).
+Considering contributing an Asset when you release new data with a
+paper!
 

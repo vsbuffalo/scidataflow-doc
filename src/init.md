@@ -1,4 +1,4 @@
-# sdf init
+# Initializing a Project with `sdf init` and `sdf metadata`
 
 To initialize SciDataFlow for a project you'd use:
 
@@ -25,8 +25,7 @@ metadata:
 This empty `data_manifest.yml` file will be edited by the various
 `sdf` subcommands.
 
-## Project Metadata
-
+## Setting Project Metadata
 
 Projects can also have store metadata, such as a title and
 description. This is kept in the Data Manifest. You can set this
