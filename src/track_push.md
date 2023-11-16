@@ -1,5 +1,7 @@
 # Tracking and Pushing Files to a Remote
 
+![A diagram depicting the sdf push and pull subcommands](images/push_pull.jpeg)
+
 ## Tracking Files with `sdf track`
 
 SciDataFlow knows you probably don't want to upload *every* file that
