@@ -1,6 +1,6 @@
 # Summary
 
-- [Installing and Configuring SciDataFlow](install_config.md)
+- [Welcome to SciDataFlow!](install_config.md)
   - [Installing SciDataFlow](./install.md)
   - [Configuring SciDataFlow](./config.md)
 - [Introduction to SciDataFlow](./intro.md)
