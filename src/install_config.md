@@ -1,7 +1,5 @@
 # Welcome to SciDataFlow!
 
-![SciDataFlow demo screencast](images/screencast.gif)
-
 **Problem 1**: Have you ever wanted to reuse and build upon a research
 project's output or supplementary data, but can't find it?
 
